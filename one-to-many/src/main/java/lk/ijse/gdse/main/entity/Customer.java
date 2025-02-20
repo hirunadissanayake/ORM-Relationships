@@ -12,6 +12,7 @@ import java.util.List;
 @Data
 @Entity
 @Table(name = "customer_table")
+//inverse side(foreignkey eka dena kena)
 public class Customer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
