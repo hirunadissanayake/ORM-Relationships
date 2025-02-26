@@ -2,17 +2,18 @@ package lk.ijse.gdse.main.entity;
 
 import jakarta.persistence.*;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.util.List;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
+/*@Data*/
 @Entity
 @Table(name = "customer")
+
+@Getter
+@Setter
 public class Customer {
     @Id
     @Column(name = "customer_id")
